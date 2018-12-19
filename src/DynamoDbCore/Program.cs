@@ -50,7 +50,7 @@ namespace DynamoDBCore
             // in the folder where dynamodb jar is listed
 
             // this is the profile manager way
-            //ProfileManager.RegisterProfile("AWS-mgrace", "AKIAJRJVSHP3ATMMDGRQ", "3bUmOvz5n13iSrVQ9LR/wN7suhzYan2ebPF13O9R");
+            //ProfileManager.RegisterProfile("profile id", "", "");
 
             // this is the way using project.json and user secrets
 
