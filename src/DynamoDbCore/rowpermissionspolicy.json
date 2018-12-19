@@ -1,0 +1,38 @@
+{
+    "Version": "2016-10-17",
+    "Statement": [
+        {
+            "Sid": "AllowAccessToOnlyItemsMatchingUserID",
+            "Effect": "Allow",
+            "Action": [
+                "dynamodb:GetItem",
+                "dynamodb:BatchGetItem",
+                "dynamodb:Query",
+                "dynamodb:PutItem",
+                "dynamodb:UpdateItem",
+                "dynamodb:DeleteItem",
+                "dynamodb:BatchWriteItem"
+            ],
+          "Resource": [
+              "arn:aws:dynamodb:us-west-2:123114898530:table/GracePermissionsSpecial"
+          ],
+            "Condition": {
+                "ForAllValues:StringEquals": {
+                    "dynamodb:LeadingKeys": [
+                        "${www.amazon.com:user_id}"
+                    ],
+                  "dynamodb:Attributes": [
+                    "UserId",
+                    "CustomerSince",
+                    "AveragePurchasePerYear",
+                    "FirstName",
+                    "LastName"
+                  ]
+                },
+                "StringEqualsIfExists": {
+                    "dynamodb:Select": "SPECIFIC_ATTRIBUTES"
+                }
+            }
+        }
+    ]
+}

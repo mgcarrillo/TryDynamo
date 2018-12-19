@@ -1,0 +1,50 @@
+[
+  {
+    "UserId": "mgrace.carrillo@gmail.com",
+    "FirstName": "Grace",
+    "LastName": "Carrillo",
+    "CustomerSince": 1999,
+    "Address": {
+      "Addr1": "123 Someplace",
+      "Addr2": "",
+      "City": "Somewhere",
+      "State": "UT",
+      "Zip": 84444
+    },
+    "AveragePurchasePerYear": 20,
+    "AveragePurchaseCostPerYear": 1000
+  },
+
+  {
+    "UserId": "jonathon.carrillo@gmail.com",
+    "FirstName": "Jonathon",
+    "LastName": "Carrillo",
+    "CustomerSince": 2001,
+    "Address": {
+      "Addr1": "123 Someplace",
+      "Addr2": "",
+      "City": "Somewhere",
+      "State": "UT",
+      "Zip": 84444
+    },
+    "AveragePurchasePerYear": 10,
+    "AveragePurchaseCostPerYear": 550
+  },
+
+  {
+    "UserId": "dood@somedomain.com",
+    "FirstName": "Some",
+    "LastName": "Dood",
+    "CustomerSince": 2016,
+    "Address": {
+      "Addr1": "8 Circle Way",
+      "Addr2": "",
+      "City": "Somewhere",
+      "State": "UT",
+      "Zip": 84444
+    },
+    "AveragePurchasePerYear": 110,
+    "AveragePurchaseCostPerYear": 2300
+  }
+
+]

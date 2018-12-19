@@ -1,0 +1,78 @@
+[{
+		"Id": 1,
+		"DTID": 777778,
+		"LastName": "McTester",
+		"FirstName": "Testy",
+		"Address": {
+			"Addr1": "100 West Circle Drive",
+			"Addr2": "Apt 99",
+			"City": "Salt Lake City",
+			"State": "UT",
+			"Zip": 84111
+		},
+		"Contacts": {
+			"Workphone": "801-555-1234",
+			"Employer": "Acme Manufacturing",
+			"Email_addresses": ["Testy@testme.com", "dood@somewhere.com"],
+			"Homephone": "435-921-3114"
+		}
+	},
+
+	{
+		"Id": 2,
+		"DTID": 777778,
+		"LastName": "Tester",
+		"FirstName": "GuyTwo",
+		"Address": {
+			"Addr1": "10572 S Riverview",
+			"Addr2": "",
+			"City": "Sandy",
+			"State": "UT",
+			"Zip": 84094
+
+		},
+		"Contacts": {
+			"Email_addresses": ["guynumbertwo@somedomain.com"],
+			"Mobile": "801-632-8452"
+		}
+	},
+
+	{
+		"Id": 3,
+		"DTID": 777778,
+		"LastName": "Validator",
+		"FirstName": "ThirdDood",
+		"Address": {
+			"Addr1": "5 Lake Avenue",
+			"Addr2": "",
+			"City": "Park City",
+			"State": "UT",
+			"Zip": 84064
+		},
+		"Contacts": {
+			"Workphone": "435-558-4912",
+			"Email_addresses": ["dood@fakedomain.com"],
+			"Mobile": "435-990-2841"
+		}
+	},
+
+	{
+		"Id": 1050644,
+		"DTID": 7777777,
+		"LastName": "Abbott",
+		"FirstName": "Eddy",
+		"Address": {
+			"Addr1": "10757 Riverpark",
+			"Addr2": "",
+			"City": "South Jordan",
+			"State": "UT",
+			"Zip": 84094
+		},
+		"Contacts": {
+			"Workphone": "801-598-3235",
+			"Email_addresses": ["eddy.abbott@coxautoinc.com", "eddy.abbott@dealertrack.com"],
+			"Mobile": "801-782-3913"
+		}
+	}
+
+]

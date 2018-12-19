@@ -1,0 +1,38 @@
+{
+  "runtimes": {
+    "win7-x64": {},
+    "win7-x86": {}
+    //"osx.10.11-x64": {},
+    //"ubuntu.14.04-x64": {},
+    //"centos.7-x64": {},
+    //"rhel.7.2-x64": {},
+    //"debian.8-x64": {}
+  },
+
+  "version": "1.0.0-*",
+  "userSecretsId": "RemoteDynamoDb",  // dynamo
+  "buildOptions": {
+    "emitEntryPoint": true,
+    "copyToOutput": [ "appsettings.json", "customerdata.json" ]
+  },
+
+  "dependencies": {
+    "AWSSDK.DynamoDBv2": "3.3.0.1",
+    "AWSSDK.Extensions.NETCore.Setup": "3.3.0.1",
+    "Microsoft.Extensions.Configuration.Json": "1.0.0",
+    "Microsoft.Extensions.Configuration": "1.0.0", // dynamo
+    "Microsoft.Extensions.Configuration.UserSecrets": "1.0.0", //dynamo
+    "Microsoft.NETCore.App": "1.0.1",
+    "System.IO": "4.1.0",
+    "Summit.Auth.Jwt": "1.0.0"
+  },
+
+  "frameworks": {
+    "netcoreapp1.0": {
+      "imports": "dnxcore50"
+    }
+  },
+  "tools": {
+    "Microsoft.Extensions.SecretManager.Tools": "1.0.0-preview2-final" //dynamo
+  }
+}

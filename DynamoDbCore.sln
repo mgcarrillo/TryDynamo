@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{31AD7C94-7AB4-4011-BDD7-9172CCFF62D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AB6482C1-AA63-4A1C-A6BE-1323FA26D1B1}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "DynamoDbCore", "src\DynamoDbCore\DynamoDbCore.xproj", "{CCBA2181-F613-4091-924F-DEBDF6BBC3A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CCBA2181-F613-4091-924F-DEBDF6BBC3A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCBA2181-F613-4091-924F-DEBDF6BBC3A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCBA2181-F613-4091-924F-DEBDF6BBC3A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCBA2181-F613-4091-924F-DEBDF6BBC3A4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CCBA2181-F613-4091-924F-DEBDF6BBC3A4} = {31AD7C94-7AB4-4011-BDD7-9172CCFF62D6}
+	EndGlobalSection
+EndGlobal
